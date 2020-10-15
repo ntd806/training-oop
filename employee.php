@@ -37,7 +37,7 @@ class Employee
  	{
  		echo "Employee: ".$this->get_name().": ".$this->get_address().": ".$this->get_phone_number().": ";
  	}
- 	
+
 	function __construct($name, $address, $phone_number)
 	{
 		$this->name = $name;
